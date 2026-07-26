@@ -38,6 +38,6 @@
     "singleQuote": false
   },
   "allowScripts": {
-    "esbuild@0.23.1": true
+    "esbuild": false
   }
 }
