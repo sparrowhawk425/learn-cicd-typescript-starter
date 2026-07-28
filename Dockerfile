@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 
 ADD . .
 
+RUN npm install -g npm@12.0.1
+
 RUN npm ci
 
 RUN npm run build
